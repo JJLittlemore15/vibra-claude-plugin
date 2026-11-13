@@ -17,8 +17,9 @@ Try calling `list_my_labels` (full name `mcp__plugin_vibra_vibra__list_my_labels
 - **Tool not available, or an auth / "needs authentication" error** - tell the user:
   1. Type `/mcp` and press Enter.
   2. Choose **plugin:vibra:vibra** and pick **Authenticate**.
-  3. A browser page from Vibra opens. Enter the email you use in the Vibra app; Vibra emails a
-     6-digit code. Enter it, then press **Allow**.
+  3. A browser page from Vibra opens. Tap **Continue with Apple** (an account made with Sign in
+     with Apple, including Hide My Email), or enter the email you use in the Vibra app and the 6-digit
+     code Vibra emails. Then press **Allow**.
   4. Come back to Claude Code and say "done".
   Then call `list_my_labels` again to confirm. If the server shows as failed rather than needing
   authentication, suggest `/reload-plugins` or restarting Claude Code, then trying again.

@@ -4,7 +4,7 @@ Make padel reels from your Vibra Clips with Claude: find your best moments, lear
 trending on Vibra Radar, and cut 9:16 reels ready for Instagram.
 
 You film and mark highlights in the Vibra app on your phone. This plugin lets Claude Code on your
-computer find those clips, suggest reel ideas, and cut a vertical 1080x1920 reel you can post
+Mac find those clips, suggest reel ideas, and cut a vertical 1080x1920 reel you can post
 yourself.
 
 ## What you get
@@ -19,6 +19,8 @@ You don't have to type the commands - just ask in plain words and Claude picks t
 
 ## What you need
 
+- A Mac. Making reels needs Claude Code or Codex running on your Mac - the Claude and ChatGPT
+  websites and phone apps can't download and cut video
 - A Claude plan that includes Claude Code
 - [Claude Code](https://code.claude.com) in a terminal, or the Code tab of the Claude desktop app
   (a local session on your computer - plugins don't run in cloud sessions)
@@ -54,9 +56,14 @@ under **Plugins**.
 Run `/vibra:setup`, or do it by hand:
 
 1. Type `/mcp`, choose **plugin:vibra:vibra**, then **Authenticate**.
-2. A Vibra page opens in your browser. Enter the email you use in the app, then the 6-digit code
-   Vibra emails you, and press **Allow**.
+2. A Vibra page opens in your browser. Tap **Continue with Apple** (or enter the email you use in
+   the app, then the 6-digit code Vibra emails you), and press **Allow**.
 3. Back in Claude Code you're connected. Sign out any time from `/mcp`.
+
+## Using Codex instead
+
+Codex works too, without this plugin: on [vibrapadel.vercel.app/connect](https://vibrapadel.vercel.app/connect)
+copy the setup prompt and paste it into Codex - it adds Vibra and signs you in.
 
 ## Things to ask
 
