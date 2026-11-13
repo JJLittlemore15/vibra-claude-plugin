@@ -61,6 +61,22 @@ curl -fL --retry 2 -o "$WORK/src/01-<item_id>.mp4" "<signed_url>"
 Use the trim window returned by `get_clip_download` for that item (it wins over the one from
 `find_my_clips` if they differ). Never print the signed URL back to the user.
 
+
+## Check it really shows the action
+
+A label or a trim window is not proof - a clip labelled "smash" can start after the smash, so the reel
+shows only the aftermath. **Unless the user says not to, check every clip with your own eyes:**
+
+- **Before cutting:** pull frames across the whole downloaded file (one every 0.25-0.5 s, e.g.
+  `ffmpeg -i in.mp4 -vf fps=3,scale=480:-1 frames/%03d.jpg`) and look at them. Find the moment the
+  named shot is actually played - the swing and the ball - and cut around it, treating
+  `trim_start`/`trim_end` as a starting guess. If the shot isn't in the clip, don't use it: say which
+  clip and pick another.
+- **After cutting:** look at frames from each segment of the finished reel and confirm each one shows
+  what you say it shows. Fix it before showing the user.
+- Tell the user in one line per clip what you saw ("clip 2: smash at 3.4 s, kept 2.8-5.0 s"). Never
+  claim a clip shows a shot you haven't seen in its frames.
+
 ## 5. Check ffmpeg
 
 ```bash
