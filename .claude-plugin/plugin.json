@@ -1,0 +1,11 @@
+{
+  "name": "vibra",
+  "displayName": "Vibra",
+  "version": "0.1.0",
+  "description": "Make padel reels from your Vibra Clips with Claude: find your best moments, learn from what's trending on Vibra Radar, and cut 9:16 reels ready for Instagram.",
+  "author": { "name": "Vibra", "url": "https://github.com/JJLittlemore15" },
+  "homepage": "https://github.com/JJLittlemore15/vibra-claude-plugin",
+  "repository": "https://github.com/JJLittlemore15/vibra-claude-plugin",
+  "license": "MIT",
+  "keywords": ["padel", "vibra", "reels", "instagram", "video", "ffmpeg", "mcp"]
+}
