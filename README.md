@@ -4,7 +4,7 @@ Make padel reels from your Vibra Clips with Claude: find your best moments, lear
 trending on Vibra Radar, and cut 9:16 reels ready for Instagram.
 
 You film and mark highlights in the Vibra app on your phone. This plugin lets Claude Code on your
-Mac find those clips, suggest reel ideas, and cut a vertical 1080x1920 reel you can post
+computer (Mac or Windows PC) find those clips, suggest reel ideas, and cut a vertical 1080x1920 reel you can post
 yourself.
 
 ## What you get
@@ -19,13 +19,13 @@ You don't have to type the commands - just ask in plain words and Claude picks t
 
 ## What you need
 
-- A Mac. Making reels needs Claude Code or Codex running on your Mac - the Claude and ChatGPT
-  websites and phone apps can't download and cut video
+- A Mac or Windows PC. Making reels needs Claude Code or Codex running on your computer - the
+  Claude and ChatGPT websites and phone apps can't download and cut video
 - A Claude plan that includes Claude Code
 - [Claude Code](https://code.claude.com) in a terminal, or the Code tab of the Claude desktop app
   (a local session on your computer - plugins don't run in cloud sessions)
 - A Vibra account with some clips
-- [ffmpeg](https://ffmpeg.org) - on a Mac, `brew install ffmpeg`. `/vibra:setup` checks for it and
+- [ffmpeg](https://ffmpeg.org) - on a Mac `brew install ffmpeg`, on Windows `winget install ffmpeg`. `/vibra:setup` checks for it and
   asks before installing anything.
 
 ## Install
