@@ -2,7 +2,6 @@
 name: brainstorm-reels
 description: Propose five concrete padel reel ideas built from the user's own Vibra Clips and what is trending on Vibra Radar. Use when the user asks for reel ideas, what to post, content ideas, or to brainstorm from Vibra Radar or their clips.
 argument-hint: "[optional focus, e.g. this week's matches or funny moments]"
-allowed-tools: mcp__plugin_vibra_vibra__reel_playbook mcp__plugin_vibra_vibra__list_my_labels mcp__plugin_vibra_vibra__find_my_clips mcp__plugin_vibra_vibra__top_radar_reels
 ---
 
 # Brainstorm reels from Vibra Clips and Vibra Radar

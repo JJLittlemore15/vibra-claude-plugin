@@ -1,7 +1,6 @@
 ---
 name: setup
 description: First-time setup for the Vibra plugin - sign in to Vibra, check the Vibra tools respond, and check ffmpeg is installed. Use when the user installs the plugin, asks how to connect or sign in to Vibra, or the Vibra tools are not working.
-allowed-tools: mcp__plugin_vibra_vibra__list_my_labels mcp__plugin_vibra_vibra__reel_playbook Bash(command -v ffmpeg) Bash(command -v ffprobe) Bash(ffmpeg -version) Bash(ffprobe -version) Bash(command -v brew) Bash(uname)
 ---
 
 # Set up Vibra in Claude Code

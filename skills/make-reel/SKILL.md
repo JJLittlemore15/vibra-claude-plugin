@@ -2,7 +2,6 @@
 name: make-reel
 description: Cut a 9:16 Instagram-ready padel reel from the user's Vibra Clips. Use when the user asks for a reel, edit, cut, highlight video, montage or short from their Vibra clips, labels or matches.
 argument-hint: "[what you want, e.g. 20-second reel of my best points this week]"
-allowed-tools: mcp__plugin_vibra_vibra__reel_playbook mcp__plugin_vibra_vibra__list_my_labels mcp__plugin_vibra_vibra__find_my_clips mcp__plugin_vibra_vibra__get_clip_download mcp__plugin_vibra_vibra__top_radar_reels
 ---
 
 # Make a reel from Vibra Clips
