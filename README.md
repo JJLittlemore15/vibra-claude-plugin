@@ -60,10 +60,21 @@ Run `/vibra:setup`, or do it by hand:
    the app, then the 6-digit code Vibra emails you), and press **Allow**.
 3. Back in Claude Code you're connected. Sign out any time from `/mcp`.
 
-## Using Codex instead
+## Using Codex
 
-Codex works too, without this plugin: on [vibrapadel.vercel.app/connect](https://vibrapadel.vercel.app/connect)
-copy the setup prompt and paste it into Codex - it adds Vibra and signs you in.
+The same plugin is packaged for Codex in [`codex/`](codex) (skills `setup`, `make-reel` and
+`brainstorm-reels`, plus the Vibra server). In a terminal:
+
+```bash
+codex plugin marketplace add JJLittlemore15/vibra-claude-plugin
+```
+
+Then run `codex`, type `/plugins`, pick **Vibra Padel** and install it, sign in to Vibra when asked
+(the same login as the app), and start a new session. Codex needs internet access allowed so it can
+download your clips.
+
+No plugin? On [vibrapadel.vercel.app/connect](https://vibrapadel.vercel.app/connect) copy the setup
+prompt and paste it into Codex - it adds Vibra and signs you in.
 
 ## Things to ask
 
