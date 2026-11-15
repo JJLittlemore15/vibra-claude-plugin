@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "vibra": {
-      "type": "http",
-      "url": "https://vibrapadel.vercel.app/mcp"
-    }
-  }
-}

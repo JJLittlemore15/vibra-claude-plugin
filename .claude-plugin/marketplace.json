@@ -1,15 +1,22 @@
 {
   "name": "vibra",
   "description": "Vibra's Claude Code plugins for padel creators.",
-  "owner": { "name": "Vibra", "url": "https://github.com/JJLittlemore15" },
+  "owner": {
+    "name": "Vibra",
+    "url": "https://github.com/JJLittlemore15"
+  },
   "plugins": [
     {
       "name": "vibra",
       "source": "./",
       "description": "Make padel reels from your Vibra Clips with Claude: find your best moments, learn from what's trending on Vibra Radar, and cut 9:16 reels ready for Instagram.",
-      "version": "0.1.0",
+      "version": "0.2.2",
       "category": "productivity",
-      "tags": ["padel", "reels", "video"]
+      "tags": [
+        "padel",
+        "reels",
+        "video"
+      ]
     }
   ]
 }

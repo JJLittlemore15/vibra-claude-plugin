@@ -62,19 +62,7 @@ Run `/vibra:setup`, or do it by hand:
 
 ## Using Codex
 
-The same plugin is packaged for Codex in [`codex/`](codex) (skills `setup`, `make-reel` and
-`brainstorm-reels`, plus the Vibra server). In a terminal:
-
-```bash
-codex plugin marketplace add JJLittlemore15/vibra-claude-plugin
-```
-
-Then run `codex`, type `/plugins`, pick **Vibra Padel** and install it, sign in to Vibra when asked
-(the same login as the app), and start a new session. Codex needs internet access allowed so it can
-download your clips.
-
-No plugin? On [vibrapadel.vercel.app/connect](https://vibrapadel.vercel.app/connect) copy the setup
-prompt and paste it into Codex - it adds Vibra and signs you in.
+The Codex version lives in its own repo: [vibra-codex-plugin](https://github.com/JJLittlemore15/vibra-codex-plugin).
 
 ## Things to ask
 
